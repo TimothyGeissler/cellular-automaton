@@ -73,12 +73,12 @@ public class Main extends Application {
     }
 
     public void step() {
-        System.out.println("Frame: " + frameCount);
+        /*System.out.println("Frame: " + frameCount);
         if (frameCount == 3600) {
             frameCount = 0;
         } else {
             cells.get(frameCount).swapLive();
             frameCount++;
-        }
+        }*/
     }
 }
